@@ -152,7 +152,7 @@ while True:
         relay.on()    
      
     
-    if (t_count==0 and (temp<=temp_sp) and (t_on<t_on_MAX)):
+    if (t_count==0 and (temp<temp_sp) and (t_on<t_on_MAX)):
         t_on = t_on+5
     
     if (t_count==0 and (temp>temp_sp) and (t_on>t_on_MIN)):
